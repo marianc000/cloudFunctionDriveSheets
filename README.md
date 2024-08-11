@@ -1,4 +1,4 @@
-# Using Google Drive API and Google Sheets API in Google functions
+# Using Google Drive and Google Sheets APIs in Cloud functions
 
 Submit a form to a Google function that saves files to a Google Drive folder and then saves file properties to a Google Sheet
 
