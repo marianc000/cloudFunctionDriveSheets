@@ -1,0 +1,2 @@
+gcloud functions deploy workspace --gen2 --runtime=nodejs20 --source=. --entry-point=run --trigger-http --allow-unauthenticated
+ 

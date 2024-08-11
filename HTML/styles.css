@@ -1,0 +1,43 @@
+html {
+    font-family: system-ui;
+}
+
+form>div {
+    /* padding: 0.5em; */
+    padding-bottom: 0.5em;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 20em;
+}
+
+*  {
+   font-size: 1em;
+}
+
+.container>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+    margin-left: 1em;
+}
+
+div#responseDiv {
+    white-space: pre;
+    /* margin-left: 1em; */
+    /* font-size: 0.8em; */
+}
+
+p {
+    display: inline-block;
+    padding-right: 0.5em;
+    margin: 0.5em 0;
+}
+
+.container {
+    display: flex;
+}

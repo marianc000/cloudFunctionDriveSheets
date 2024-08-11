@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" type="module"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <div>
+        <p>Share folder with: </p>
+        <p id="emailP"></p>
+      </div>
+      <form id="form" action="https://europe-west6-cloud-function-workspace.cloudfunctions.net/workspace">  
+        <!-- <form id="form" action="http://localhost:8080">  -->
+        <div><label>User Id</label><input type="text" name="userId" value="test@gmail.com"></div>
+        <div><label>Folder Id</label><input type="text" name="folderId" value="1wA7b9POeAiBeJGOjFxhsYbJ_9OTHyS1x"></div>
+        <div><label>Spreadsheet Id</label><input type="text" name="spreadsheetId"
+            value="1RTZ0mT-DopzteXshje4_0G6pYK-m03xg5E6IeWs6L3Q"></div>
+        <div><label>Images</label><input type="file" name="images" multiple accept="image/*"></div>
+        <input type="hidden" name="sentAtUTC">
+        <input type="hidden" name="url">
+        <div><button type="button" id="btn">Submit</button></div>
+      </form>
+    </div>
+    <div id="responseDiv"></div>
+  </div>
+</body>
+
+</html>
